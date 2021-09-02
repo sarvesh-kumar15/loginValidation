@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>validate</servlet-name>
+  	<display-name>validate</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.loginValidation.validate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>validate</servlet-name>
+  	<url-pattern>/validate</url-pattern>
+  </servlet-mapping>
 </web-app>
